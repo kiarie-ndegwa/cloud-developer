@@ -1,19 +1,23 @@
 export const config = {
   "dev": {
-    "username": "",
-    "password": "",
-    "database": "",
-    "host": "",
+    "username": "udagramkiariedev",
+    "password": "Canberra-2020",
+    "database": "udagramkiariedev",
+    "host": "udagramkiariedev.c5efmufbzzcj.ap-southeast-2.rds.amazonaws.com",
     "dialect": "postgres",
-    "aws_region": "us-east-2",
+    "aws_region": "ap-southeast-2",
     "aws_profile": "default",
-    "aws_media_bucket": "udagram-ruttner-dev"
+    "aws_media_bucket": "udagram-kiarie-dev"
   },
   "prod": {
-    "username": "",
-    "password": "",
-    "database": "udagram_prod",
-    "host": "",
+    "username": "udagramkiariedev",
+    "password": "Canberra-2020",
+    "database": "udagramkiariedev",
+    "host": "udagramkiariedev.c5efmufbzzcj.ap-southeast-2.rds.amazonaws.com",
     "dialect": "postgres"
+  },
+  "jwt":{
+    "secret":"helloworld"
   }
 }
+
