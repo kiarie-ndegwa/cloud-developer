@@ -49,3 +49,6 @@ Add your own domain name and have it point to the running services (try adding a
 
 ### Screenshot of deployed EB website
 ![Screen shot](./images/screenshot.png)
+
+### Working URL: 
+`http://udagram-kiarie-project-1-dev.ap-southeast-2.elasticbeanstalk.com/filteredimage?image_url=https://upload.wikimedia.org/wikipedia/commons/3/3f/KITTEN_on_BAMBOO_top_C_11JUN94.jpg`
